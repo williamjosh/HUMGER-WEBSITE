@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'akrobatbold';
+  src: url("../fonts/akrobat-bold-webfont.woff2") format("woff2"), url("../fonts/akrobat-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'akrobatregular';
+  src: url("../fonts/akrobat-regular-webfont.woff2") format("woff2"), url("../fonts/akrobat-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'humgerregular';
+  src: url("../fonts/humger-webfont.woff2") format("woff2"), url("../fonts/humger-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'befolk_regular';
+  src: url("../fonts/befolk_script-webfont.woff2") format("woff2"), url("../fonts/befolk_script-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url(../assets/hero-background.png) no-repeat;
+  background-position: top;
+  background-size: cover;
+  font-family: "akrobatregular";
+  font-size: 16px; }
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+header nav {
+  padding: 20px; }
+  header nav ul {
+    text-align: center;
+    margin: 0;
+    padding: 0; }
+    header nav ul li {
+      display: inline-block;
+      margin: 0px 50px; }
+      header nav ul li a {
+        font-family: "akrobatbold";
+        color: #FFFFFF;
+        font-size: 20px; }
+        header nav ul li a:hover {
+          color: #F2F2F2; }
+      header nav ul li div.logo img {
+        height: 70px; }
