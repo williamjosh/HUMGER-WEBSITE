@@ -26,8 +26,9 @@ body {
   margin: 0;
   padding: 0;
   background: url(../assets/hero-background.png) no-repeat;
-  background-position: top;
+  background-position: center;
   background-size: cover;
+  height: 130vh;
   font-family: "akrobatregular";
   font-size: 16px; }
 
@@ -62,6 +63,67 @@ a.hb-menu {
   right: 25px;
   display: none; }
 
+div.wrapper {
+  padding: 0px 50px; }
+
+.container {
+  width: 100%;
+  margin: auto;
+  padding-top: 4%;
+  padding-bottom: 4%; }
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.row::after {
+  display: table;
+  clear: both;
+  content: ""; }
+
+.col-1 {
+  width: 8.33%; }
+
+.col-2 {
+  width: 16.66%; }
+
+.col-3 {
+  width: 25%; }
+
+.col-4 {
+  width: 33.33%; }
+
+.col-5 {
+  width: 41.66%; }
+
+.col-6 {
+  width: 50%; }
+
+.col-7 {
+  width: 58.33%; }
+
+.col-8 {
+  width: 66.66%; }
+
+.col-9 {
+  width: 75%; }
+
+.col-10 {
+  width: 83.33%; }
+
+.col-11 {
+  width: 91.66%; }
+
+.col-12 {
+  width: 100%; }
+
 header nav {
   padding: 20px; }
   header nav ul {
@@ -84,11 +146,54 @@ header div.hero-cta {
   margin-top: 20vh; }
   header div.hero-cta h1 {
     color: #FFFFFF;
-    font-size: 70px;
+    font-size: 65px;
     font-family: "akrobatbold";
     line-height: 53px; }
   header div.hero-cta span {
     color: #FFE400; }
+  header div.hero-cta button {
+    margin-top: -60px; }
+
+div.menu-section {
+  margin-top: 50vh;
+  text-align: center; }
+  div.menu-section h1.main-menu-title {
+    font-size: 50px; }
+  div.menu-section h5 {
+    font-weight: 500;
+    margin-top: -30px;
+    font-size: 20px;
+    font-family: "befolk_regular"; }
+  div.menu-section div.menu {
+    text-align: left; }
+    div.menu-section div.menu div.menu-card {
+      padding: 0px 10px; }
+      div.menu-section div.menu div.menu-card img {
+        width: 100%; }
+      div.menu-section div.menu div.menu-card div.main-menu-title {
+        margin-top: -20px;
+        border-right: 8px solid #000000; }
+        div.menu-section div.menu div.menu-card div.main-menu-title h1.menu-title {
+          font-family: "akrobatbold";
+          font-weight: 900; }
+        div.menu-section div.menu div.menu-card div.main-menu-title h2.menu-price {
+          margin-top: -30px;
+          font-size: 40px;
+          font-weight: 400;
+          color: #FF3819; }
+      div.menu-section div.menu div.menu-card p.menu-food-info {
+        font-weight: 900;
+        padding: 0px 10px 0px 0px;
+        margin-top: -25px; }
+
+div.socials {
+  position: fixed;
+  top: 45vh;
+  right: 0px; }
+  div.socials ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
 
 @media only screen and (max-width: 1323px) {
   header nav ul li {
@@ -152,3 +257,29 @@ header div.hero-cta {
         padding: 5px 0px; }
       header nav ul.topnav li.hero-logo {
         display: none; } }
+
+@media only screen and (max-width: 1076px) {
+  div.menu-section div.menu div.menu-card div.main-menu-title h1.menu-title {
+    font-size: 25px; }
+  div.menu-section div.menu div.menu-card div.main-menu-title h2.menu-price {
+    margin-top: -25px; } }
+
+@media only screen and (max-width: 865px) {
+  div.menu-section div.menu div.menu-card div.main-menu-title {
+    margin-top: -10px; }
+    div.menu-section div.menu div.menu-card div.main-menu-title h1.menu-title {
+      font-size: 20px; }
+    div.menu-section div.menu div.menu-card div.main-menu-title h2.menu-price {
+      font-size: 34px;
+      margin-top: -25px; } }
+
+@media only screen and (max-width: 734px) {
+  div.menu-section div.menu div.menu-card {
+    width: 50%; }
+    div.menu-section div.menu div.menu-card div.main-menu-title {
+      margin-top: -10px; }
+      div.menu-section div.menu div.menu-card div.main-menu-title h1.menu-title {
+        font-size: 16px; }
+      div.menu-section div.menu div.menu-card div.main-menu-title h2.menu-price {
+        font-size: 30px;
+        margin-top: -20px; } }
