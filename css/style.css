@@ -194,7 +194,7 @@ div.order-section {
   text-align: center;
   padding-top: 30vh;
   padding-bottom: 20vh;
-  margin-bottom: 40vh; }
+  margin-bottom: 25vh; }
   div.order-section h1.order-title {
     font-family: "befolk_regular";
     color: #FFFFFF;
@@ -233,6 +233,33 @@ div.order-section {
     font-weight: 600;
     color: #FFFFFF;
     font-size: 16px; }
+
+div.signup-main {
+  background: url(../assets/footer.png) no-repeat; }
+  div.signup-main h1.signup-title {
+    text-align: center;
+    color: #FFFFFF; }
+  div.signup-main div.signup {
+    text-align: center; }
+    div.signup-main div.signup h1 {
+      color: #FFFFFF;
+      font-size: 20px; }
+    div.signup-main div.signup input {
+      background-color: rgba(255, 255, 255, 0.5);
+      border: 4px solid #DFDFDF;
+      padding: 15px 10px;
+      width: 50vh;
+      color: #FFFFFF;
+      font-weight: 600; }
+  div.signup-main div.signup-btn {
+    margin-top: 50px;
+    text-align: center; }
+  div.signup-main div.signup-left {
+    text-align: right;
+    padding-right: 20px; }
+  div.signup-main div.signup-right {
+    text-align: left;
+    padding-left: 20px; }
 
 div.socials {
   position: fixed;
@@ -442,3 +469,25 @@ div.socials {
     padding-top: 20vh; }
     div.order-section h1.order-title {
       font-size: 30px; } }
+
+@media only screen and (max-width: 659px) {
+  div.signup-main div.signup h1 {
+    font-size: 16px; }
+  div.signup-main div.signup input {
+    width: 40vh; } }
+
+@media only screen and (max-width: 531px) {
+  div.signup-main div.signup input {
+    width: 60vh; }
+  div.signup-main div.signup div.signup-cards {
+    width: 100%;
+    text-align: center;
+    padding: 0px; } }
+
+@media only screen and (max-width: 383px) {
+  div.signup-main div.signup input {
+    width: 50vh; } }
+
+@media only screen and (max-width: 319px) {
+  div.signup-main div.signup input {
+    width: 40vh; } }
