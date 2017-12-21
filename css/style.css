@@ -158,7 +158,8 @@ div.menu-section {
   margin-top: 50vh;
   text-align: center; }
   div.menu-section h1.main-menu-title {
-    font-size: 50px; }
+    font-size: 50px;
+    font-family: "humgerregular"; }
   div.menu-section h5 {
     font-weight: 500;
     margin-top: -30px;
@@ -185,6 +186,53 @@ div.menu-section {
         font-weight: 900;
         padding: 0px 10px 0px 0px;
         margin-top: -25px; }
+
+div.order-section {
+  background: url(../assets/order.png) no-repeat;
+  background-position: top;
+  background-size: cover;
+  text-align: center;
+  padding-top: 30vh;
+  padding-bottom: 20vh;
+  margin-bottom: 40vh; }
+  div.order-section h1.order-title {
+    font-family: "befolk_regular";
+    color: #FFFFFF;
+    font-size: 50px;
+    font-weight: 400; }
+  div.order-section h1.order-info {
+    margin-top: -40px;
+    font-size: 65px;
+    color: #FFFFFF;
+    font-family: "akrobatbold";
+    line-height: 53px; }
+    div.order-section h1.order-info span {
+      color: #FFE400; }
+  div.order-section input {
+    margin-top: -100px;
+    color: #FFFFFF;
+    font-size: 20px;
+    width: 78vh;
+    padding: 15px 10px;
+    border: 3px solid #FFFFFF;
+    background-color: #1A1A1A;
+    margin-bottom: 20px; }
+  div.order-section input::-webkit-input-placeholder {
+    font-weight: 600;
+    color: #FFFFFF;
+    font-size: 16px; }
+  div.order-section input:-ms-input-placeholder {
+    font-weight: 600;
+    color: #FFFFFF;
+    font-size: 16px; }
+  div.order-section input::-ms-input-placeholder {
+    font-weight: 600;
+    color: #FFFFFF;
+    font-size: 16px; }
+  div.order-section input::placeholder {
+    font-weight: 600;
+    color: #FFFFFF;
+    font-size: 16px; }
 
 div.socials {
   position: fixed;
@@ -347,3 +395,50 @@ div.socials {
   div.menu-section h5 {
     font-size: 16px;
     line-height: 25px; } }
+
+@media only screen and (max-width: 480px) {
+  div.order-section input {
+    width: 70vh; } }
+
+@media only screen and (max-width: 422px) {
+  div.order-section input {
+    width: 60vh; } }
+
+@media only screen and (max-width: 368px) {
+  div.order-section {
+    padding-top: 15vh; }
+    div.order-section h1.order-title {
+      line-height: 150px;
+      font-size: 40px; }
+    div.order-section h1.order-info {
+      line-height: 40px;
+      font-size: 40px; }
+    div.order-section input {
+      width: 50vh; } }
+
+@media only screen and (max-width: 310px) {
+  div.order-section {
+    padding-top: 15vh; }
+    div.order-section h1.order-title {
+      line-height: 150px;
+      font-size: 40px; }
+    div.order-section h1.order-info {
+      line-height: 40px;
+      font-size: 40px; }
+    div.order-section input {
+      font-size: 16px;
+      width: 40vh; }
+    div.order-section input::-webkit-input-placeholder {
+      font-size: 10px; }
+    div.order-section input:-ms-input-placeholder {
+      font-size: 10px; }
+    div.order-section input::-ms-input-placeholder {
+      font-size: 10px; }
+    div.order-section input::placeholder {
+      font-size: 10px; } }
+
+@media only screen and (max-width: 285px) {
+  div.order-section {
+    padding-top: 20vh; }
+    div.order-section h1.order-title {
+      font-size: 30px; } }
