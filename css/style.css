@@ -30,7 +30,8 @@ body {
   background-size: cover;
   height: 130vh;
   font-family: "akrobatregular";
-  font-size: 16px; }
+  font-size: 16px;
+  overflow-x: hidden; }
 
 * {
   -webkit-box-sizing: border-box;
@@ -59,7 +60,7 @@ div.backup-logo {
 a.hb-menu {
   color: #FFFFFF;
   position: absolute;
-  top: 23px;
+  top: 10px;
   right: 25px;
   display: none; }
 
@@ -339,6 +340,10 @@ div.socials {
 @media only screen and (max-width: 694px) {
   header nav ul li {
     margin: 0px 17px; } }
+
+@media only screen and (max-width: 681px) {
+  header nav ul li {
+    margin: 0px 16px; } }
 
 @media only screen and (max-width: 678px) {
   header nav {
