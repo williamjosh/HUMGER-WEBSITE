@@ -36,7 +36,31 @@ body {
   box-sizing: border-box; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  font-family: "akrobatregular"; }
+
+button {
+  background-color: #ED7800;
+  padding: 15px 50px;
+  border: 3px solid #FFFFFF;
+  border-radius: 10px; }
+  button a {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 800; }
+
+div.backup-logo {
+  display: none;
+  text-align: center; }
+  div.backup-logo img {
+    height: 40px; }
+
+a.hb-menu {
+  color: #FFFFFF;
+  position: absolute;
+  top: 23px;
+  right: 25px;
+  display: none; }
 
 header nav {
   padding: 20px; }
@@ -55,3 +79,76 @@ header nav {
           color: #F2F2F2; }
       header nav ul li div.logo img {
         height: 70px; }
+
+header div.hero-cta {
+  margin-top: 20vh; }
+  header div.hero-cta h1 {
+    color: #FFFFFF;
+    font-size: 70px;
+    font-family: "akrobatbold";
+    line-height: 53px; }
+  header div.hero-cta span {
+    color: #FFE400; }
+
+@media only screen and (max-width: 1323px) {
+  header nav ul li {
+    margin: 0px 40px; } }
+
+@media only screen and (max-width: 1184px) {
+  header nav ul li {
+    margin: 0px 30px; } }
+
+@media only screen and (max-width: 1045px) {
+  header nav ul li {
+    margin: 0px 20px; } }
+
+@media only screen and (max-width: 902px) {
+  header nav ul li div.logo img {
+    height: 60px; } }
+
+@media only screen and (max-width: 877px) {
+  header nav ul li {
+    margin: 0px 15px; }
+    header nav ul li a {
+      font-size: 18px; }
+    header nav ul li div.logo img {
+      height: 50px; } }
+
+@media only screen and (max-width: 743px) {
+  header nav ul li {
+    margin: 0px 15px; }
+    header nav ul li a {
+      font-size: 16px; }
+    header nav ul li div.logo img {
+      height: 40px; } }
+
+@media only screen and (max-width: 678px) {
+  header nav {
+    padding: 0; }
+    header nav a.hb-menu {
+      display: block; }
+    header nav div.backup-logo {
+      background: #ED7800;
+      padding: 10px 0px;
+      display: block;
+      border-bottom: 2px solid #FFFFFF; }
+    header nav ul.topnav.responsive {
+      background: #ED7800;
+      display: block; }
+      header nav ul.topnav.responsive li.hero-menu {
+        width: 100%;
+        border-bottom: 2px solid #FFFFFF;
+        margin: 0;
+        padding: 5px 0px; }
+      header nav ul.topnav.responsive li.hero-logo {
+        display: none; }
+    header nav ul.topnav {
+      background: #ED7800;
+      display: none; }
+      header nav ul.topnav li.hero-menu {
+        width: 100%;
+        border-bottom: 2px solid #FFFFFF;
+        margin: 0;
+        padding: 5px 0px; }
+      header nav ul.topnav li.hero-logo {
+        display: none; } }
