@@ -25,10 +25,21 @@
 		div.menu
 			div.menu-card
 				width: 50%
-				div.main-menu-title
-					margin-top: -10px
-					h1.menu-title
-						font-size: 16px
-					h2.menu-price
-						font-size: 30px
-						margin-top: -20px
+
+@media only screen and (max-width: 700px)
+	div.menu-section
+		margin-top: 40vh
+		div.wrapper
+			padding: 0px 10px
+
+@media only screen and (max-width: 448px)
+		div.menu-section
+			div.menu
+				div.menu-card
+					width: 100%
+
+@media only screen and (max-width: 425px)
+	div.menu-section
+		h5
+			font-size: 16px
+			line-height: 25px

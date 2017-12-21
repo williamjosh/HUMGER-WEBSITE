@@ -219,13 +219,37 @@ div.socials {
     header nav ul li div.logo img {
       height: 50px; } }
 
+@media only screen and (max-width: 757px) {
+  header nav {
+    padding: 20px 0px; }
+    header nav ul li {
+      margin: 0px 20px; }
+      header nav ul li a {
+        font-size: 16px; } }
+
+@media only screen and (max-width: 755px) {
+  header nav {
+    padding: 20px 0px; }
+    header nav ul li {
+      margin: 0px 22px; }
+      header nav ul li a {
+        font-size: 16px; }
+      header nav ul li div.logo img {
+        height: 40px; } }
+
 @media only screen and (max-width: 743px) {
+  header nav {
+    padding: 20px 0px; }
+    header nav ul li {
+      margin: 0px 15px; }
+      header nav ul li a {
+        font-size: 16px; }
+      header nav ul li div.logo img {
+        height: 40px; } }
+
+@media only screen and (max-width: 694px) {
   header nav ul li {
-    margin: 0px 15px; }
-    header nav ul li a {
-      font-size: 16px; }
-    header nav ul li div.logo img {
-      height: 40px; } }
+    margin: 0px 17px; } }
 
 @media only screen and (max-width: 678px) {
   header nav {
@@ -258,6 +282,38 @@ div.socials {
       header nav ul.topnav li.hero-logo {
         display: none; } }
 
+@media only screen and (max-width: 676px) {
+  div.socials ul li img {
+    height: 30px; }
+  header div.wrapper {
+    padding: 10px; }
+    header div.wrapper div.hero-cta h1 {
+      font-size: 50px;
+      line-height: 40px; } }
+
+@media only screen and (max-width: 500px) {
+  header div.hero-cta {
+    text-align: center; }
+    header div.hero-cta h1 {
+      font-size: 55px;
+      line-height: 45px; } }
+
+@media only screen and (max-width: 295px) {
+  header div.hero-cta {
+    margin-top: 10vh;
+    text-align: center; }
+    header div.hero-cta h1 {
+      font-size: 50px;
+      line-height: 40px; } }
+
+@media only screen and (max-width: 269px) {
+  header div.hero-cta {
+    margin-top: 10vh;
+    text-align: center; }
+    header div.hero-cta h1 {
+      font-size: 45px;
+      line-height: 40px; } }
+
 @media only screen and (max-width: 1076px) {
   div.menu-section div.menu div.menu-card div.main-menu-title h1.menu-title {
     font-size: 25px; }
@@ -275,11 +331,19 @@ div.socials {
 
 @media only screen and (max-width: 734px) {
   div.menu-section div.menu div.menu-card {
-    width: 50%; }
-    div.menu-section div.menu div.menu-card div.main-menu-title {
-      margin-top: -10px; }
-      div.menu-section div.menu div.menu-card div.main-menu-title h1.menu-title {
-        font-size: 16px; }
-      div.menu-section div.menu div.menu-card div.main-menu-title h2.menu-price {
-        font-size: 30px;
-        margin-top: -20px; } }
+    width: 50%; } }
+
+@media only screen and (max-width: 700px) {
+  div.menu-section {
+    margin-top: 40vh; }
+    div.menu-section div.wrapper {
+      padding: 0px 10px; } }
+
+@media only screen and (max-width: 448px) {
+  div.menu-section div.menu div.menu-card {
+    width: 100%; } }
+
+@media only screen and (max-width: 425px) {
+  div.menu-section h5 {
+    font-size: 16px;
+    line-height: 25px; } }
