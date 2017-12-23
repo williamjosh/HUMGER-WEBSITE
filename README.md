@@ -1,1 +1,1 @@
-<img src="mockup.png">
+<img src="mockup.png" height="500px">
